@@ -1,4 +1,4 @@
-# Film Embeddings Analysis Project
+# FAISS - Embeddings Analysis Project
 
 This project implements semantic search functionality for film analysis using OpenAI embeddings and FAISS vector store.
 
