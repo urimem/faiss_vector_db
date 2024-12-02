@@ -29,5 +29,5 @@ class stoper:
                 
             data_str += f"Time: {current_time:.3f}, Diff: {time_diff:.3f}, Name: {name}\n"
             prev_time = current_time
-            
+        data_str += f"Total: {(self.laps[len(self.laps)-1][0] - self.laps[0][0]):.3f}"
         return data_str
