@@ -1,6 +1,5 @@
 pandas
 langchain
-langchain_chroma
 langchain_openai
 langgraph
 langchain-community

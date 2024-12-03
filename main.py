@@ -40,7 +40,7 @@ stoper.lap('got results')
 
 # Print the results
 for result in results:
-    print(f"Film ID:{result.metadata['film_id']}, Film name: {result.metadata['film_name']}, Metadata: {result.metadata}")
+    print(f"\n\nFilm ID:{result.metadata['film_id']}, Film name: {result.metadata['film_name']}, Academic value: {result.page_content}")
 
 # Print timing information
 print("\n" + stoper.get_data_str())
